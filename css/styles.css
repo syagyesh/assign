@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+#first-section {
+    background-color: rgba(78,171,160,255);
+    padding: .7em 0;
+    color: aliceblue;
+    font-size: small;
+}
+
+#ffollow {
+    padding: 2.5em 65% 0 2em;
+}
