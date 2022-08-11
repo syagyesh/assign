@@ -1,5 +1,5 @@
 /* Total Body */
-body {
+* {
     margin: 0;
     padding: 0;
     max-width: 100%;
@@ -95,6 +95,7 @@ body {
 .blog-store {
     margin: 2em 2em 0 2em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     /* flex-wrap: wrap; */
@@ -124,6 +125,7 @@ body {
 }
 .blog-bottom {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     color: gray;
@@ -159,15 +161,18 @@ body {
 }
 .spons-head {
     text-align: center;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 .spon {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 5em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+    max-width: 100%;
 }
 .spon>img {
     width: 6em;
+    padding: 2em 0 0 0;
 }
 /* ------------------------Footer Part - First------------------------------ */
 .first-sec {
@@ -176,47 +181,60 @@ body {
 }
 .foot-store {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 2em 0 2em;
+    margin: 0 1em 0 1em;
     color: #e8ecf5;
 }
 .con {
     font-size: .8em;
+    padding-bottom: 1.2em;
 }
 .foot-head {
     font-size: 1.2em;
+    padding-bottom: .8em;
+    padding-top: .4em;
 }
-.navi>ul>li {
+.navi  li {
     list-style: none;
-    margin-left: 2em;
+    padding-bottom: .3em;
 }
 .navi a {
    text-decoration: none;
    font-size: .8em;
    color: #e8ecf5;
 }
+.navi a:hover {
+    color: chocolate;
+}
 .email {
-    display: inline;
+    display: flex;
 }
 .email button {
     background-color: #4eaaa1;
     color: #e8ecf5;
-    margin-left: -2em;
     border: none;
     width: 1.5rem;
     height: 1.35rem;
 }
 /* ------------------------Footer Part - Second------------------------------ */
 .second-sec {
+    background-color: #181918;
+}
+.con p {
+    padding-bottom: .3em;
+}
+.cre {
     display: flex;
     width: 100%;
-    background-color: #181918;
+    padding: 1em 0 1em 0;
     color: #e8ecf5;
     justify-content: space-between;
     font-size: .9em;
 }
 #credit {
     margin-left: 2em;
+    font-size: .8em;
 }
 #credit i {
     color: red;
@@ -226,6 +244,7 @@ body {
 }
 #cont {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     align-items: center;
     margin-right: 2em;
