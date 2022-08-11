@@ -1,8 +1,10 @@
-* {
+/* Total Body */
+body {
     margin: 0;
     padding: 0;
     max-width: 100%;
 }
+/* -----------------Header Part - First-------------------------- */
 .contact-us {
     background-color: #4eaaa1;
     display: inline-block;
@@ -27,6 +29,7 @@
     float: right;
     margin-right: 5em;
 }
+/* -------------------Header Part - Second------------------------- */
 .second-section {
     display: flex;
     padding: 1% 5% 1% 5%;
@@ -52,6 +55,7 @@
     height: 2em;
     font-weight: 600;
 }
+/* ----------------------Header Part - Third --------------------------*/
 .third-section {
     display: flex;
     justify-content: space-around;
@@ -79,9 +83,7 @@
 .intro a:hover {
     color: brown;
 }
-main {
-    width: 100%;
-}
+/* ---------------Blog Part-------------------------- */
 .blog-head {
     display: flex;
     flex-direction: column;
@@ -151,6 +153,7 @@ main {
     font-size: .8em;
     border-bottom: 2px solid black;
 }
+/* ------------------------Sponspor Part----------------------------- */
 .sponsers {
     margin-top: 7em;
 }
@@ -162,4 +165,71 @@ main {
     display: flex;
     justify-content: space-around;
     margin-bottom: 5em;
+}
+.spon>img {
+    width: 6em;
+}
+/* ------------------------Footer Part - First------------------------------ */
+.first-sec {
+    width: 100%;
+    background-color: #222322;
+}
+.foot-store {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2em 0 2em;
+    color: #e8ecf5;
+}
+.con {
+    font-size: .8em;
+}
+.foot-head {
+    font-size: 1.2em;
+}
+.navi>ul>li {
+    list-style: none;
+    margin-left: 2em;
+}
+.navi a {
+   text-decoration: none;
+   font-size: .8em;
+   color: #e8ecf5;
+}
+.email {
+    display: inline;
+}
+.email button {
+    background-color: #4eaaa1;
+    color: #e8ecf5;
+    margin-left: -2em;
+    border: none;
+    width: 1.5rem;
+    height: 1.35rem;
+}
+/* ------------------------Footer Part - Second------------------------------ */
+.second-sec {
+    display: flex;
+    width: 100%;
+    background-color: #181918;
+    color: #e8ecf5;
+    justify-content: space-between;
+    font-size: .9em;
+}
+#credit {
+    margin-left: 2em;
+}
+#credit i {
+    color: red;
+}
+#cont a {
+    color: #e8ecf5;
+}
+#cont {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 2em;
+}
+#cont li {
+    padding-right: .5em;
 }
