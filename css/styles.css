@@ -124,7 +124,6 @@
 }
 .blog-bottom {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     color: gray;
