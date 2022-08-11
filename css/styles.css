@@ -1,56 +1,54 @@
 * {
     margin: 0;
-    padding: 0%;
+    padding: 0;
     max-width: 100%;
 }
-
-#first-section {
-    background-color: rgba(78,171,160,255);
-    padding: .7em 0;
+.contact-us {
+    background-color: #4eaaa1;
+    display: inline-block;
+    font-size: .9em;
     color: aliceblue;
-    font-size: small;
+    padding: 0.8em 0 0.8em 0;
+    width: 100%;
 }
-
-#ffollow {
-    padding: 2.5em 65% 0 2em;
+.en-left {
+    float: left;
+    margin-left: 3em;
 }
-
-#nav li{
-    display: inline-block;
-    font-size: 1.2em;
-    padding: 0 1rem 0 2em;
-}
-
-#second-section { 
-    color: brown;
-    padding: 1.5em 4% 1.5em 4%;
-}
-
-#home {
-    padding-left: 5rem;
-}
-
-#main-logo h3 {
-    color: black;
-}
-
-#main-logo h4{
-    color: aqua;
-    font-size: 1.5rem;
-}
-#second-section>span {
-    display: inline-block;
-}
-
-#main-logo>img {
-    height: 5em;
-    width: 5em;
-    display: inline-block;
-}
-
-#main-logo>ul {
-    display: inline-block;
-    font-size: 1.8em;
+.en-left li {
     list-style: none;
-    padding-bottom: ;
+    display: inline-block;
+}
+.en-left a {
+    color: aliceblue;
+    font-size: .9em;
+}
+.en-right {
+    float: right;
+    margin-right: 5em;
+}
+.second-section {
+    display: flex;
+    padding: 1% 5% 1% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav>ul {
+    list-style: none;
+    display: flex;
+}
+.nav li {
+    padding-right: 5%;
+}
+.nav a {
+    text-decoration: none;
+    color: gray;
+}
+.donate button {
+    color: aliceblue;
+    background-color: #4eaaa1;
+    border: none;
+    width: 6em;
+    height: 2em;
+    font-weight: 600;
 }
