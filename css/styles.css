@@ -5,7 +5,35 @@
     max-width: 100%;
 }
 /* -----------------Header Part - First-------------------------- */
-.contact-us {
+.first-section {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #4eaaa1;
+    color: #e8ecf5;
+    padding: .5em 0;
+}
+.first-section ul {
+    list-style: none;
+    display: inline-flex;
+}
+.first-section a {
+    color: #e8ecf5;
+    font-size: .8em;
+}
+.en-left {
+    margin-right: auto;
+    margin-left: 4em;
+}
+.en-right {
+    margin-left: auto;
+    margin-right: 4em;
+}
+.first-section li {
+    padding-right: .6em;
+}
+/* .contact-us {
     background-color: #4eaaa1;
     display: inline-block;
     font-size: .9em;
@@ -28,7 +56,7 @@
 .en-right {
     float: right;
     margin-right: 5em;
-}
+} */
 /* -------------------Header Part - Second------------------------- */
 .second-section {
     display: flex;
