@@ -27,8 +27,14 @@
     margin-left: 4em;
 }
 .en-right {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: 4em;
+}
+.en-right div {
+    padding-right: .6em;
 }
 .first-section li {
     padding-right: .6em;
